@@ -1,0 +1,94 @@
+
+body {
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+
+}
+.bluebackground {
+    background-color: lightblue;
+}
+.nav {
+    list-style: none;
+    margin-left: 0px;
+}
+.flexitem {
+    flex: 1 1 auto;
+}
+.companyitem {
+    justify-content: flex-start;
+}
+.rightitemsbox {
+    justify-content: flex-end;
+}
+.text {
+    text-decoration: none;
+    font-size: 1.4em;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+
+@media only screen and (max-width:750px) {
+    .flexcontainer {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:750px) {
+    .companyitem {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        background-color: lightblue;
+        width: 100%;
+    }
+    }
+    @media only screen and (max-width:750px) {
+    .rightitemsbox {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:750px) {
+    .text {
+        background-color: lightblue;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:750px) {
+    .bluebackground {
+        background-color: white;
+    }
+}
+.flexContainer {
+    display: flex;
+}
+.flexCenter {
+    justify-content: center;
+}
+.fullHeight {
+    height: 100vh;
+}
+.itemCenter {
+    align-items: center;
+}
+.centerImage {
+    background: url('lake.jpg') center;
+    background-size: cover;
+}
+
+.homebutton {
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
